@@ -1,0 +1,21 @@
+Core Components and APIs
+ActivityIndicator
+Button
+FlatList
+Image
+ImageBackground
+KeyboardAvoidingView
+Modal
+Pressable
+RefreshControl
+ScrollView
+SectionList
+StatusBar
+Switch
+Text
+TextInput
+TouchableHighlight
+TouchableOpacity
+TouchableWithoutFeedback
+View
+VirtualizedList
