@@ -8,8 +8,12 @@ with open("index2.html", "r") as f:
 # access tags, use doc. the tag (gives the first instance)
 # print(doc.h1)
 #tag.attrs => gives you attributes in a dictionary
-res = doc.find_all(class_ = "btn-item")
-print(res)
+res = doc.find_all("input", type="text")
+for r in res:
+    r['placeholder'] = "I changed you!"
+    
+with open("changed.html", "w") as file:
+    file.write(str(doc))
 #access the html text
 # print(doc.h1.string)
 
