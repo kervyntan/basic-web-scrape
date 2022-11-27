@@ -8,7 +8,7 @@ with open("index2.html", "r") as f:
 # access tags, use doc. the tag (gives the first instance)
 # print(doc.h1)
 #tag.attrs => gives you attributes in a dictionary
-res = doc.find('option')
+res = doc.find_all(class_ = "btn-item")
 print(res)
 #access the html text
 # print(doc.h1.string)
